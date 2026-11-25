@@ -1,0 +1,67 @@
+# Intel Quartus Prime generated files
+db/
+incremental_db/
+output_files/
+simulation/qsim/
+greybox_tmp/
+hc_output/
+*.rpt
+*.summary
+*.done
+*.jdi
+*.pin
+*.sof
+*.pof
+*.rbf
+*.ttf
+*.smsg
+*.sld
+*.bak
+*.qws
+*.ddb
+*.eqn
+*.cmp
+*.bsf
+*.ppf
+*.qar
+*.qarlog
+*.qdf
+pll_sim/
+*.sopcinfo
+*.html
+
+# ModelSim / QuestaSim generated files
+simulation/work/
+work/
+vsim.wlf
+vsim.dbg
+wlft*
+transcript
+modelsim.ini
+*.vstf
+*.mti
+*.cr.mti
+*.mpf
+*.vcd
+*.ghw
+simulation/results.txt
+results.txt
+
+# Icarus Verilog / Verilator / Yosys outputs
+*.vvp
+*.out
+obj_dir/
+
+# Local reference PDFs & scratch artifacts
+architecture.pdf
+*.log.tmp
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.vscode/
+.idea/
+__pycache__/

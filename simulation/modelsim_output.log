@@ -1,0 +1,152 @@
+﻿Reading pref.tcl
+
+# 2020.1
+
+# do run_sim.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:16:56 on Nov 25,2026
+# vlog -work work ../rtl/processor/adder.v ../rtl/processor/alu.v ../rtl/processor/alu_decoder.v ../rtl/processor/branching_unit.v ../rtl/processor/controller.v ../rtl/processor/datapath.v ../rtl/processor/imm_extend.v ../rtl/processor/main_decoder.v ../rtl/processor/mux2.v ../rtl/processor/mux3.v ../rtl/processor/mux4.v ../rtl/processor/reg_file.v ../rtl/processor/reset_ff.v ../rtl/pipeline_registers/pl_reg_fd.v ../rtl/pipeline_registers/pl_reg_de.v ../rtl/pipeline_registers/pl_reg_em.v ../rtl/pipeline_registers/pl_reg_mw.v ../rtl/hazard/hazard_unit.v ../rtl/memory/instr_mem.v ../rtl/memory/data_mem.v ../rtl/processor/riscv_cpu.v ../rtl/processor/pl_riscv_cpu.v 
+# -- Compiling module adder
+# -- Compiling module alu
+# -- Compiling module alu_decoder
+# -- Compiling module branching_unit
+# -- Compiling module controller
+# -- Compiling module datapath
+# -- Compiling module imm_extend
+# -- Compiling module main_decoder
+# -- Compiling module mux2
+# -- Compiling module mux3
+# -- Compiling module mux4
+# -- Compiling module reg_file
+# -- Compiling module reset_ff
+# -- Compiling module pl_reg_fd
+# -- Compiling module pl_reg_de
+# -- Compiling module pl_reg_em
+# -- Compiling module pl_reg_mw
+# -- Compiling module hazard_unit
+# -- Compiling module instr_mem
+# -- Compiling module data_mem
+# -- Compiling module riscv_cpu
+# -- Compiling module pl_riscv_cpu
+# 
+# Top level modules:
+# 	adder
+# 	mux2
+# 	mux3
+# 	mux4
+# 	pl_riscv_cpu
+# End time: 20:16:56 on Nov 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:16:56 on Nov 25,2026
+# vlog -work work ../testbench/tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 20:16:56 on Nov 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" work.tb 
+# Start time: 20:16:56 on Nov 25,2026
+# Loading work.tb
+# Loading work.pl_riscv_cpu
+# Loading work.riscv_cpu
+# Loading work.controller
+# Loading work.main_decoder
+# Loading work.alu_decoder
+# Loading work.datapath
+# Loading work.reset_ff
+# Loading work.pl_reg_fd
+# Loading work.reg_file
+# Loading work.imm_extend
+# Loading work.pl_reg_de
+# Loading work.alu
+# Loading work.branching_unit
+# Loading work.pl_reg_em
+# Loading work.pl_reg_mw
+# Loading work.hazard_unit
+# Loading work.instr_mem
+# Loading work.data_mem
+# 1. addi implementation is correct for x0 
+# 2. addi implementation is correct 
+# 3. slli implementation is correct 
+# 4. slti implementation is correct 
+# 5. sltiu implementation is correct 
+# 6. xori implementation is correct 
+# 7. srli implementation is correct 
+# 8. srai implementation is correct 
+# 9. ori implementation is correct 
+# 10. andi implementation is correct
+# 11. add implementation is correct 
+# 12. sub implementation is correct 
+# 13. sll implementation is correct 
+# 14. slt implementation is correct 
+# 15. sltu implementation is correct 
+# 16. xor implementation is correct 
+# 17. srl implementation is correct 
+# 18. sra implementation is correct 
+# 19. or implementation is correct 
+# 20. and implementation is correct 
+# 21. lui implementation is correct 
+# 22. auipc implementation is correct 
+# 23. sb implementation is correct
+# 24. sh implementation is correct
+# 25. sw implementation is correct
+# 26. lb implementation is correct
+# 27. lh implementation is correct
+# 28. lw implementation is correct
+# 29. lbu implementation is correct
+# 30. lhu implementation is correct
+# 31. blt is executing
+# 31. blt is executing
+# 31. blt is executing
+# 31. blt is executing
+# 31. blt is executing
+# 31. blt is executing
+# 31. blt is executing
+# 31. blt is executing
+# 31. blt is executing
+# 31. blt is executing
+# 31. blt implementation is correct 
+# 32. bge is executing
+# 32. bge is executing
+# 32. bge is executing
+# 32. bge is executing
+# 32. bge is executing
+# 32. bge is executing
+# 32. bge is executing
+# 32. bge is executing
+# 32. bge is executing
+# 32. bge is executing
+# 32. bge is executing
+# 32. bge implementation is correct
+# 33. bltu is executing
+# 33. bltu is executing
+# 33. bltu is executing
+# 33. bltu is executing
+# 33. bltu implementation is correct 
+# 34. bgeu is executing
+# 34. bgeu is executing
+# 34. bgeu is executing
+# 34. bgeu is executing
+# 34. bgeu is executing
+# 34. bgeu implementation is correct 
+# 35. bne is executing
+# 35. bne is executing
+# 35. bne is executing
+# 35. bne is executing
+# 35. bne is executing
+# 35. bne implementation is correct 
+# 36. beq is executing
+# 36. beq is executing
+# 36. beq implementation is correct 
+# 37. jalr implementation is correct 
+# 38. jal implementation is correct 
+# Faulty Instructions =>           0
+# No errors encountered, congratulations!
+# ** Note: $stop    : ../testbench/tb.v(513)
+#    Time: 2385 ns  Iteration: 1  Instance: /tb
+# Break in Module tb at ../testbench/tb.v line 513
+# Stopped at ../testbench/tb.v line 513
+# End time: 20:16:56 on Nov 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
